@@ -16,7 +16,7 @@ const route = routeFile
       { lat: 40.7158, lng: -74.003 },
     ];
 
-const socket = io("http://localhost:3000");
+const socket = io("https://bus-tracker-assignment.onrender.com");
 
 let index = 0;
 
