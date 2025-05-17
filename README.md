@@ -9,22 +9,21 @@ This is the backend server for a real-time bus tracking system. It provides API 
 ### 1. Clone the repository
 
 ```bash
-git clone <your-backend-repo-url>
-cd backend-bus
-```bash
+git clone https://github.com/amoreX/bus-tracker-assignment.git
+cd bus-tracker-assignment
+```
 
 ### 2.Install dependancies
+```bash
 npm Install
+```
 
 ### 3.How to Use
 Step 1: Visit the Frontend
-
     Open the frontend app in your browser .
 
 Step 2: Create a Trip
-
     Use the frontend to create a new trip (this calls the /trips endpoint).
-
 IMPORTANT: Click Track Trip before starting the driver
 
     After creating a trip, make sure to click the "Track Trip" button on the frontend. This enables the frontend to listen to live location updates for your trip.
