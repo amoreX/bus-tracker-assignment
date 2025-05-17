@@ -23,9 +23,8 @@ Step 1: Visit the Frontend
     Open the frontend app in your browser .
 
 Step 2: Create a Trip
-    Use the frontend to create a new trip (this calls the /trips endpoint).
-IMPORTANT: Click Track Trip before starting the driver
-
+    Use the frontend to create a new trip.
+**IMPORTANT**: Click Track Trip before starting the driver
     After creating a trip, make sure to click the "Track Trip" button on the frontend. This enables the frontend to listen to live location updates for your trip.
 
 Step 3: Start the Driver Simulator
