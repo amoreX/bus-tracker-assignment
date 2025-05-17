@@ -21,6 +21,7 @@ npm Install
 ### 3.How to Use
 Step 1: Visit the Frontend
     Open the frontend app in your browser .
+    👉Link : https://frontend-bustracker.vercel.app/
 
 Step 2: Create a Trip
     Use the frontend to create a new trip.
