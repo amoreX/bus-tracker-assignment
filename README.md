@@ -25,9 +25,11 @@ Step 1: Visit the Frontend
 Step 2: Create a Trip
     Use the frontend to create a new trip.
 
-**IMPORTANT: Click Track Trip before starting the driver
+**IMPORTANT**:
+```bash
+    Click Track Trip before starting the driver
     After creating a trip, make sure to click the "Track Trip" button on the frontend. This enables the frontend to listen to live location updates for your trip.**
-
+```
 Step 3: Start the Driver Simulator
 
     Open a new terminal and run:
@@ -35,7 +37,9 @@ Step 3: Start the Driver Simulator
     replace T-0 with the tripId from Frontend
 
 Step 4: Custom Routes
+```bash
     open and modify "test-route1.json" with custom routes
     open a new terminal and run
     nodemon driver.js T-0 ./test-route1.json
     replace ./test-route1.json with your custom routes file if need be
+```
