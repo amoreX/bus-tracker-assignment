@@ -15,7 +15,7 @@ cd bus-tracker-assignment
 
 ### 2.Install dependancies
 ```bash
-npm Install
+npm i
 ```
 
 ### 3.How to Use
@@ -35,13 +35,13 @@ Step 2: Create a Trip
 Step 3: Start the Driver Simulator
 
     Open a new terminal and run:
-    nodemon driver.js T-0
+    node driver.js T-0
     replace T-0 with the tripId from Frontend
 
 Step 4: Custom Routes
 ```bash
     open and modify "test-route1.json" with custom routes
     open a new terminal and run
-    nodemon driver.js T-0 ./test-route1.json
+    node driver.js T-0 ./test-route1.json
     replace ./test-route1.json with your custom routes file if need be
 ```
