@@ -23,9 +23,11 @@ app.get("/trips", (req, res) => {
 });
 
 app.post("/trips", (req, res) => {
+  const { id, currentLocation } = req.body;
+  console.log(id, currentLocation);
   const newTrip = {
-    id: `T-${+trips.length}`,
-    currentLocation: { lat: 40.7128, lng: -74.006 }, //dummy-hardcoded initial position
+    id: id || `T-${trips.length}`,
+    currentLocation: currentLocation || { lat: 40.7128, lng: -74.006 },
     status: "active",
   };
   trips.push(newTrip);
