@@ -2,6 +2,11 @@
 
 This is the backend server for a real-time bus tracking system. It provides API endpoints to create and manage trips, and uses WebSocket to broadcast live location updates.
 
+Github link for frontend: https://github.com/amoreX/frontend-bustracker
+
+Deployed links :
+ - Frontend: https://frontend-bustracker.vercel.app/
+ - Backend: https://github.com/amoreX/live-bus-tracker-lite-nihal
 ---
 
 ## Setup Instructions
