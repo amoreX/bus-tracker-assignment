@@ -24,7 +24,7 @@ npm i
 - 👉Link : https://frontend-bustracker.vercel.app/
 
 ## Step 2: Create a Trip
-- Use the frontend to create a new trip.
+- Use the frontend to create a new trip with custom or dummy data.
 
 **IMPORTANT**:
 
