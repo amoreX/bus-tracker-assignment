@@ -17,7 +17,11 @@ const io = new Server(server, {
 const trips = [];
 
 //API Endpoints
-
+app.get("/", (req, res) => {
+  res.send(
+    "Hosted on render, pleaes visit https://github.com/amoreX/live-bus-tracker-lite-nihal for details!",
+  );
+});
 app.get("/trips", (req, res) => {
   res.json(trips);
 });
